@@ -3,9 +3,9 @@ This document details how it works
 
 How it works:
     I started by giving each letter in the english alphabet a score, where the
-    score equivalent to how often it shows up compared to the least common letter q.
-    For example, e gets a score of 56 because it occurs 56 times more frequently than
-    q. q being the least frequent gets a score of 1.
+    score is equivalent to how often it shows up compared to the least common letter "q".
+    For example, "e" gets a score of 56 because it occurs 56 times more frequently than
+    "q". "q" being the least frequent gets a score of 1.
 
     I then got a list of all possible words wordle could use and gave each of them a score.
     In this case the score was equivalent to the sum of the score of each of its letters,
